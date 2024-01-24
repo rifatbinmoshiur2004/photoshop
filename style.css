@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* nav start */
+nav{
+    background-color: #02918b;
+}
+nav .container{
+    width: 1170px;
+    margin: auto;
+}
+nav .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .row ul li{
+    display: inline-block;
+}
+nav .row img{
+    padding: 18px 0 23px 0
+}
+nav .row ul li a{
+    color: #ffffff;
+    padding: 0 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+   
+}
+#banner{
+    background-image: url(./img/MYFOLIO\ \(1\).png);
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#banner .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+    color: #ffffff;
+}
+#banner .row h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#banner .row h1{
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#banner .row img{
+    margin: 52px 0 40px 0;
+}
+#banner .row a{
+    padding: 20px 40px;
+    background-color: #cfc91d;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
